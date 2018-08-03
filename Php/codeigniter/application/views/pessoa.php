@@ -11,12 +11,12 @@
 <div class="modal fade bs-example-modal-lg" tabindex="-1" id="modalId" role="dialog" aria-labelledby="gridSystemModalLabel">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h2 class="modal-title" id="gridSystemModalLabel" style="text-align: center">Cadastro</h2>
-            </div>
+            
             <div class="modal-body">
-
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h2 class="modal-title" id="gridSystemModalLabel" style="text-align: center">Cadastro</h2>
+                
                 <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-2 main ">
                     <form method="post" action="<?php echo base_url() . 'Pessoa/recebe_dados' ?>">
                         <div class="row form-group"></div>
@@ -84,6 +84,7 @@
                             <button type="submit" name="enviar" value="ENVIAR" class="btn btn-primary">Salvar</button>
                         </div>
                     </form>
+                </div>
                 </div>
             </div><!-- /.modal body -->
         </div><!-- /.modal-content -->
