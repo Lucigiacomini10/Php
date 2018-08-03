@@ -33,7 +33,7 @@
                         </div>
                     </div>
                 </div>
-                <span style="text-align: right">Curso Web 2018 ©</span>
+                <span style="text-align: left">Curso Web 2018 ©</span>
             </div>
         </form>
     </body>

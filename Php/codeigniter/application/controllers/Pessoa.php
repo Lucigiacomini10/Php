@@ -44,14 +44,7 @@ class Pessoa extends CI_Controller {
         "UF: " . $uf . "<br>" .
         "País: " . $pais . "<br>";
 
-        $conexao = mysqli_connect('localhost', 'root', '', 'aula') or die('Erro ao conectar ao banco de dados');
-        $sql = "INSERT INTO cadastro VALUES ";
-        $sql .= "('', '$nome', '$documento', '$endereco', '$numero', '$pais', '$uf', '$cidade', '$fone', '$email', '$dt_nasc')";
-        mysqli_query($conexao, $sql) or die("Erro ao tentar cadastrar registro");
-        mysqli_close($conexao);
-        echo "Cadastrado com sucesso!";
-        echo $sql;
-        //header('Location: http://localhost/codeigniter/pessoa');
+
     }
 
 }

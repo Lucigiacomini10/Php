@@ -14,7 +14,13 @@ class Login extends CI_Controller {
     }
 
     public function efetua_login() {
-        echo 'teste';
+        
+        $usuario = $this->input->post("usuario");
+        $senha = $this->input->post("senha");
+        
+        echo "usuario:" .$usuario. "<br>";
+        echo "senha:" .$senha;
+        
     }
 }
 //http://blog.thiagobelem.net/criando-um-sistema-de-login-com-php-e-mysql
