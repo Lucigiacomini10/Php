@@ -8,4 +8,4 @@ $autoload['drivers'] = array();
 $autoload['helper'] = array('url', 'file');
 $autoload['config'] = array();
 $autoload['language'] = array();
-$autoload['model'] = array('contatos_model');
+$autoload['model'] = array();

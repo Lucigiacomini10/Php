@@ -1,7 +1,5 @@
 <title>Login</title>
-<?php
-require 'principal.php';
-?>
+
 </header>
     <body>
         <form method="post" class="formLogin" action="<?php echo base_url() . 'Login/efetua_login' ?>">
