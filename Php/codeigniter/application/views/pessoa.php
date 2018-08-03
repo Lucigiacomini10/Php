@@ -80,8 +80,8 @@
                             </div>
                         </div>
                         <div class="modal-footer"> <!-- não está enviando pois o body deve fechar antes-->
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                            <button type="submit" name="enviar" value="ENVIAR" class="btn btn-primary">Save changes</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                            <button type="submit" name="enviar" value="ENVIAR" class="btn btn-primary">Salvar</button>
                         </div>
                     </form>
                 </div>
