@@ -24,3 +24,4 @@ class Login extends CI_Controller {
     }
 }
 //http://blog.thiagobelem.net/criando-um-sistema-de-login-com-php-e-mysql
+//http://www.universidadecodeigniter.com.br/criando-um-crud-com-codeigniter/
